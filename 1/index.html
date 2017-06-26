@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="rus">
+  <head>
+    <meta charset="utf-8">
+        <link href="css/custom.css.html" rel="stylesheet">
+
+    <!-- Owl Carousel Assets -->
+    <link href="owl-carousel/owl.carousel.css" rel="stylesheet">
+    <link href="owl-carousel/owl.theme.css" rel="stylesheet">
+    <link href="css/font-awesome.css" rel="stylesheet">
+
+    <title>LiNX</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=0">
+        <link rel="apple-touch-icon" href="apple-touch-icon.png">
+        <link rel="stylesheet" href="css/bootstrap.css">
+        <link rel="stylesheet" href="css/main.css">
+<meta name="format-detection" content="telephone=no">
+        <script src="js/vendor/modernizr-2.8.3-respond-1.4.2.min.js.html"></script>
+
+    <link rel="shortcut icon" href="ico/favicon.png.html">
+  </head>
+  <body>
+
+      <nav class="navbar navbar-default navbar-fixed-top navbar-inverse">
+          <div class="container">
+        <a href="index.html" class="brand">LINX</a>
+       <a href="tel:+380675966444"> <span class="phone">+38 067 596 6444</span></a>
+          </div>
+        </nav>
+  
+
+      <div id="demo">
+        <div class="container">
+          <div class="row block-carousel">
+            <div class="span12">
+              <div id="owl-demo" class="owl-carousel">
+
+                <div class="item">
+                    <div class="iph5" alt="iphone 5/5s/5c"></div>
+                    <span class="headline5">iPhone 5/5s/5c</span>
+                    <span class="desc1_5 desc5">750 грн. Замена стекла.</span>
+                    <span class="desc2_5 desc5">0 грн. Услуги курьера, временный телефон.</span>
+
+                </div>
+
+                <div class="item">
+                  <div class="iph6" alt="iphone 6"></div>
+                    <span class="headline5">iPhone 6</span>
+                    <span class="desc1_5 desc5">1300 грн. Замена стекла.</span>
+                    <span class="desc2_5 desc5">0 грн. Услуги курьера, временный телефон.</span>
+
+                </div>
+
+                <div class="item">
+                    <div class="iph6p" alt="iphone 6 plus"></div>
+                    <span class="headline5">iPhone 6 plus</span>
+                    <span class="desc1_5 desc5">1300 грн. Замена стекла.</span>
+                    <span class="desc2_5 desc5">0 грн. Услуги курьера, временный телефон.</span>
+
+                </div>
+
+
+                  <div class="item">
+                    <div class="iph6p" alt="iphone 6s"></div>
+                    <span class="headline5">iPhone 6s</span>
+                    <span class="desc1_5 desc5">1300 грн. Замена стекла.</span>
+                    <span class="desc2_5 desc5">0 грн. Услуги курьера, временный телефон.</span>
+
+                </div>
+
+
+                <div class="item">
+                    <div class="iph6p" alt="iphone 6s plus"></div>
+                    <span class="headline5">iPhone 6s plus</span>
+                    <span class="desc1_5 desc5">1300 грн. Замена стекла.</span>
+                    <span class="desc2_5 desc5">0 грн. Услуги курьера, временный телефон.</span>
+
+                </div>
+
+
+
+
+              </div>
+            </div>
+          </div>
+        </div>
+    </div>
+
+    <div class="content-bar">
+      <a href="tel:+380675966444"><button class="callback center-block">Позвонить для закакза</button></a>
+      <a href="index.html#"><button class="left_b" >Подарки</button></a>
+    </div>
+
+    <div class="gifts">
+      <i class="fa fa-chevron-down" aria-hidden="true"></i>
+      <div class="left_gift"></div>
+      <div class="right_gift">
+        <div class="left_img"></div>
+        <div class="left_text">Временный <br>телефон.</div>
+      </div>
+    </div>
+
+
+    <script src="js/jquery-1.9.1.min.js"></script> 
+    <script src="owl-carousel/owl.carousel.js"></script>
+
+
+    <!-- Demo -->
+
+    <style>
+    #owl-demo .item img{
+        display: block;
+        width: 100%;
+        height: auto;
+    }
+    </style>
+
+
+    <script>
+    $(document).ready(function() {
+      $("#owl-demo").owlCarousel({
+
+      navigation : true,
+      slideSpeed : 300,
+      paginationSpeed : 400,
+      singleItem : true
+
+      // "singleItem:true" is a shortcut for:
+      // items : 1, 
+      // itemsDesktop : false,
+      // itemsDesktopSmall : false,
+      // itemsTablet: false,
+      // itemsMobile : false
+
+      });
+     
+    });
+
+
+    $('.left_b').click(function(){
+    $('.gifts').addClass('gifts_height');
+    });
+    $('.fa.fa-chevron-down').click(function(){
+    $('.gifts').removeClass('gifts_height');
+    });
+
+    </script>
+
+    <script src="js/bootstrap-collapse.js"></script>
+    <script src="js/bootstrap-transition.js"></script>
+    <script src="js/bootstrap-tab.js"></script>
+
+    <script src="js/google-code-prettify/prettify.js.html"></script>
+    <script src="js/application.js"></script>
+
+  </body>
+</html>
